@@ -1,0 +1,18 @@
+<div class="header">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+  <h1>Descubra o Mundo das Galinhas!</h1>
+</div>
+<div class="content">
+  <h2>Fatos Fascinantes sobre Galinhas</h2>
+  <ul>
+    <li>As galinhas têm uma memória visual incrível e lembram até 100 rostos.</li>
+    <li>Elas usam mais de 30 sons diferentes para se comunicar.</li>
+    <li>A comunicação mãe-filhote começa antes mesmo de nascerem.</li>
+    <li>As galinhas têm uma hierarquia social complexa.</li>
+  </ul>
+  <button (click)="showMoreInfo()">Saiba Mais</button>
+</div>
+<div class="info" *ngIf="showInfo">
+  <p>Sabia que as galinhas também conseguem ver cores? Elas têm uma visão até melhor que a dos humanos!</p>
+</div>
